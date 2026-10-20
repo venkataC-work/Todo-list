@@ -1,0 +1,22 @@
+:root {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #18212f;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color-scheme: light;
+  font-size: 14px;
+  line-height: 1.5;
+  --canvas: #f7f8fa;
+  --surface: #ffffff;
+  --text: #18212f;
+  --muted: #667085;
+  --border: #e4e7ec;
+  --primary: #2557d6;
+  --danger: #b42318;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-lg: 14px;
+  --content-width: 920px;
+}

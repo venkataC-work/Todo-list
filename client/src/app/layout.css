@@ -1,0 +1,51 @@
+.app-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.035em;
+}
+
+.auth-header,
+.topbar {
+  min-height: 76px;
+  padding: 0 max(24px, calc((100% - var(--content-width)) / 2));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.sign-out {
+  min-height: 36px;
+  padding: 6px 0 6px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.sign-out:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.page {
+  width: 100%;
+  max-width: calc(var(--content-width) + 48px);
+  margin-inline: auto;
+  padding: 52px 24px 40px;
+}
+
+@media (max-width: 600px) {
+  .auth-header,
+  .topbar {
+    min-height: 64px;
+    padding-inline: 20px;
+  }
+  .page {
+    padding: 32px 20px;
+  }
+}

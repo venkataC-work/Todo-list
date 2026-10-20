@@ -1,0 +1,33 @@
+# Dependencies and build caches
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Test output
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Secrets and local application data
+.env
+.env.*
+!.env.example
+/server/data/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
